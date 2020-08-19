@@ -1,4 +1,5 @@
 provider "ibm" {
+  alias = "gb"
   region = "eu-gb"
 }
 
