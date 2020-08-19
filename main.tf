@@ -1,6 +1,8 @@
 
 provider "ibm" {
-   ibmcloud_api_key = "12e9708a898b70f815760d814ae6db1abba88c04887acaa0d75"
+   ibmcloud_api_key = "lFv_HdeW9JsLynBuQ6lDg8if0HvluIQJfEy51jLR3lut"
+   region = "eu-gb"
+   generation = 2
 }
 
 data "ibm_schematics_workspace" "vpc" {
