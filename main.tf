@@ -1,5 +1,5 @@
 data "ibm_schematics_workspace" "vpc" {
-  provider = ibm
+  provider = ibm.gb
   workspace_id = var.workspace_id
 }
 
