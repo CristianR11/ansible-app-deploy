@@ -1,6 +1,7 @@
 
 provider "ibm" {
   # ibmcloud_api_key = var.ibmcloud_api_key
+  región = "eu-gb"
 }
 
 data "ibm_schematics_workspace" "vpc" {
