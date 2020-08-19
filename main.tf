@@ -1,6 +1,6 @@
 
 provider "ibm" {
-  # ibmcloud_api_key = var.ibmcloud_api_key
+   ibmcloud_api_key = "12e9708a898b70f815760d814ae6db1abba88c04887acaa0d75"
 }
 
 data "ibm_schematics_workspace" "vpc" {
