@@ -5,6 +5,7 @@ provider "ibm" {
 }
 
 data "ibm_schematics_workspace" "vpc" {
+  provider = ibm
   workspace_id = var.workspace_id
 }
 
