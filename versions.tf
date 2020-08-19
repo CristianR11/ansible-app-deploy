@@ -1,6 +1,5 @@
 provider "ibm" {
-  alias = "gb"
-  region = "eu-gb"
+  version = "~> 1.5.3"
 }
 
 terraform {
