@@ -1,7 +1,6 @@
 
 provider "ibm" {
    #ibmcloud_api_key = "lFv_HdeW9JsLynBuQ6lDg8if0HvluIQJfEy51jLR3lut"
-   region = var.region
 }
 
 data "ibm_schematics_workspace" "vpc" {
@@ -61,11 +60,6 @@ resource "null_resource" "ansible" {
 
 variable "ssh_private_key" {
 }
-
-variable "region" {
-   default = "us-south"
-}
-
 
 # variable "ibmcloud_api_key" {
 #   description = "IBM Cloud API key when run standalone"
