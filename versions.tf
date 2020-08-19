@@ -1,5 +1,6 @@
 provider "ibm" {
-  version = "~> 1.5.3"
+  region = "eu-gb"
+  version = "~> 1.0"
 }
 
 terraform {
