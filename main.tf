@@ -1,5 +1,4 @@
 data "ibm_schematics_workspace" "vpc" {
-  region = "eu-gb"
   workspace_id = var.workspace_id
 }
 
