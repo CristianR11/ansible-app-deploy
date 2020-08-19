@@ -62,6 +62,10 @@ resource "null_resource" "ansible" {
 variable "ssh_private_key" {
 }
 
+variable "region" {
+   default = "us-south"
+}
+
 
 # variable "ibmcloud_api_key" {
 #   description = "IBM Cloud API key when run standalone"
